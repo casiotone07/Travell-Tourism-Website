@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Page</title>
+
+<style>
+
+a 
+{
+  text-decoration:none;
+}
+
+*
+{
+  margin:0;
+ padding:0;
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #000;
+}
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 50px 0;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+
+  margin: 0 15px 30px;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+}
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #121212;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #f9b234;
+
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234;
+
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #3ecd5e;
+}
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #e44002;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #952aff;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<table style="width:100%;">
+
+<tr>
+<td colspan="6" align="center"><img src="images/logo.webp" style="height:100px"></td>
+</tr>
+<tr style="background:orange;">
+<td align="center" style="padding:10px;"><a href="index.html">Home</a></td>
+<td align="center" style="padding:10px;"><a href="about.html">About Us</a></td>
+<td align="center" style="padding:10px;"><a href="domestic-tour.html">Domestic Tour</a></td>
+<td align="center"><a href="international-tour.html">International Tour</a></td>
+<td align="center" style="padding:10px;"><a href="contact.html">Contact</a></td>
+<!--<td align="center" style="padding:10px;"><a href="blog.html">Blog</a></td> -->
+<td></td>
+</tr>
+
+
+<tr>
+<td colspan="6"><img src="images/about-banner.jpg" style="width:100%;"></td>
+</tr>
+
+<tr>
+<td colspan="6" style="padding:20px 30px;">
+
+<h1><u><b>About Us:</b></u></h1>
+
+<h3>We creating memories for travel Enthusiasts. 
+Commercialized in 2023, Club Holiday is a Rohini, Delhi based travel agency. 
+Club Holiday specializes in Domestic and International Tour Packages. 
+Travel Lover, wish to live an experience and we design travel experience for them through our expertise, 
+experience and exposure. Club Holiday is Family run holiday consultancy firm with multinational state of mind.,
+we are more into Family Centric holiday packages. 
+Club Holiday is active across various travel segments by providing booking facilities on
+Domestic and International Air tickets, Hotel booking, Tour packages, Leisure travels & many packages.</h3>
+
+<h3>
+We provide good deals and discounts on Domestic as well as International Packages. 
+We also enjoy a high relationship quotient with major hotels and DMC companies. 
+This allows us to serve you with Best Holiday Packages and a great experience. 
+Club Holiday considers planning an exotic Kerala Tour with its transport Services and Houseboat Experience, 
+one of its specialty. 
+Andaman holiday packages is another kind of experience which earned positive reviews from clients in the past. 
+Club Holiday enjoys a smart and efficient team to organize, conduct and execute your Group Holiday Packages.</h3>
+
+</td>
+</tr>
+
+
+<tr style="background:blue; ">
+<td colspan="6" align="center" style="padding:10px; color:#fff;">
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
